@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="utf-8" />
+   <title>IMAGENES, TABLAS Y FORMS</title>
+</head>
+
+<body>
+   <h1>IMAGENES, TABLAS Y FORMS</h1>
+   <h3>Imagenes</h3>
+   <!-- En el src debemos indicar la fuente de la Imagenes
+         En alt debe ir una descripción de la imagen la cual se carga si no se encuentra la imagen y también ayuda a las personas con problemas de visiòn ya que ese texto es leido por las tabletas electronicas.
+         Title nos sirve para poner un titulo a la imagen
+         width y height nos sirve para determinar el largo y ancho de una imagen. -->
+   <center>
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4bAfcktLk-Lh4KVqsSidhH64UjUk5G3J_A&usqp=CAU
+         title="Generation" width="600" height="300">
+      <br />
+      <br />
+      <img src="carro.jpeg" alt="modelos de carros" title="carro">
+   </center>
+
+   <hr />
+   <h3>Tablas</h3>
+   <table border="1">
+      <tr>
+         <td>Horario</td>
+         <td>Materia</td>
+      </tr>
+      <tr>
+         <td>09:00 - 10:00</td>
+         <td>Programación</td>
+      </tr>
+      <tr>
+         <td>10:00 - 11:00</td>
+         <td>Algoritmos</td>
+      </tr>
+      <tr>
+         <td>11:00 - 13:00</td>
+         <td>Programación orientada a objetos</td>
+      </tr>
+   </table>
+
+   <hr />
+   <h3>Mi horario de clases</h3>
+   <!--  Encabezados horario, lunes, martes, miércoles, ... Viernes
+   Por lo menos 5 row (tr) sin contar el encabezado -->
+
+   <table border="1">
+      <!-- Rowspan sirve para unir celdas verticalmente
+      Rouspan sirve para unir celdas verticalmente -->
+      <tr>
+         <td>Horario</td>
+         <td>Lunes</td>
+         <td>martes</td>
+         <td>miércoles</td>
+         <td>jueves</td>
+         <td>viernes</td>
+      </tr>
+      <tr>
+         <td>07:00 - 08:00</td>
+         <td rowspan="2">ingles</td>
+         <td>Algoritmos</td>
+         <td>geo</td>
+         <td>compu</td>
+         <td>ciencias</td>
+      </tr>
+      <tr>
+         <td>09:00 - 010:00</td>
+         <td>Historia</td>
+         <td>español</td>
+         <td>geo</td>
+         <td>Español</td>
+      </tr>
+      <tr>
+         <td>11:00 - 12:00</td>
+         <td>Algoritmos</td>
+         <td>Historis</td>
+         <td>geo</td>
+         <td>Historia</td>
+         <td>computación</td>
+      </tr>
+      <tr>
+         <td>12:00 - 12:30</td>
+         <td colspan="2">Receso</td>
+         <td>receso</td>
+      </tr>
+      <tr>
+         <td>12:30 - 13:00</td>
+         <td>historia</td>
+         <td>mate</td>
+         <td>geo</td>
+         <td>Algoritmos</td>
+         <td>ciencias</td>
+      </tr>
+   </table>
+   <hr />
+   <h3>Prueba</h3>
+   <table border="2">
+      <tr>
+         <td>Rojo</td>
+         <td colspan="2">Verde</td>
+      </tr>
+      <tr>
+         <td>Café</td>
+         <td>Marrón</td>
+         <td>Tinto</td>
+      </tr>
+      <tr>
+         <td colspan="3">Naranja</td>
+      </tr>
+      <tr>
+         <td colspan="2">Blanco</td>
+         <td>Negro</td>
+      </tr>     
+   </table>
+
+</body>
+
+</html>

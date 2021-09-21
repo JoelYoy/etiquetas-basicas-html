@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <!-- action se refiere a la creaciopn que se realiza -->
+    <!--  method hace referencia al método HTTP usando para enviar los datos  -->
+    <form>
+        <p>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label for="email">Correo electrónico</label>
+            <input tipe="emeil" name="email" />
+        </p>
+        <p>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" />
+        </p>
+        <p>
+            <!-- textarea permite introducir textos largos -->
+            <label for="">Publicación</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <!-- select hace una lista de elementos de la cual podemos seleccionar uno -->
+            <label for="">Color favorito</label>
+            <select name="color" id="">
+                <option value="1">Rojo</option>
+                <option value="1">verde</option>
+                <option value="1">Azul</option>
+            </select>
+        </p>
+        <p>
+            <!-- radio selecciona un solo elemento de las opciones -->
+            <p>
+                <label for="">Selecciona tu rango de edad</label>
+            </p>
+            <br />
+           <p>
+               <input type="radio" name="edad" id=""> De 18 a 29
+           </p>
+           <p>
+            <input type="radio" name="edad" id=""> De 23 a 28
+           </p>
+            <label for="">De 18 a 22</label>
+            <input type="radio" name="edad" id="">
+            <label for="">De 23 a 28</label>
+            <input type="radio" name="edad" id="">
+            <label for="">De 29 a 59</label>
+            <input type="radio" name="edad" id="">
+        </p>
+        <p> 
+        <!-- input submit guarda datos pero si los puede ver el usurio -->
+        <!-- una manera antigua de guardar datos -->
+        <input type="submit" value="Guardar datos">
+        </p>
+        <p>
+       <!--  button guarda datos pero no los muestra al usurio -->
+        <button type="submit">Guarda datos</button>
+        </p>     
+    </form>
+</body>
+
+</html>

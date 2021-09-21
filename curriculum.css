@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+}
+
+.subtitule{
+    background-color: rgb(179, 177, 177);
+}
+
+.subtitule2{
+    color:red;
+    background-color: grey;
+}
+
+span, u{
+    color:green
+}
+
+.azul{
+    color:blue;
+}
+
+.subrayado{
+    color:blue;
+}
+
+.subtitule3{
+    color: purple;
+    background-color: rgb(133, 131, 131);
+}
+
+.p2{
+    background-color: rgb(179, 177, 177);
+}

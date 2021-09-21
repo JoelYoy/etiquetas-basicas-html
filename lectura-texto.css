@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(167, 248, 248);
+}
+
+.title{
+    color:red;
+}
+
+h1{
+    text-align: right;
+}
+
+p{
+    text-align: center;
+}
+
+.naranja{
+    color:orangered;
+}
+
+.verde{
+    color:green;
+    background-color: white;
+    
+}
